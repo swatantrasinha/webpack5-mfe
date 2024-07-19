@@ -11,6 +11,12 @@ Steps :
 > npm i --save-dev webpack webpack-cli <br />
 > npm i --save lodash <br />
 
+Lets create 4 files
+- create folder "src" parallel to package.json
+- add index.html and index.js inside src folder
+- create webpack.config.js file
+<br />
+
 <details>
   <summary> 1. package.json </summary>
 <br />
@@ -106,6 +112,12 @@ module.exports= {
 ```
 
 </details>
+
+> npm i
+> npm run build
+
+Now open html file with live server and click on button "Click Me"
+
 
 </details>
 
