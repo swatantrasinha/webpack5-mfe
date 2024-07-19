@@ -126,6 +126,8 @@ Now open html file with live server and click on button "Click Me"
 
 <details>
 <summary> Section-01 - Part2 : CommonJS-Modules </summary>
+<img width="516" alt="Section1-Part2-Modules-In-Javascript" src="https://github.com/user-attachments/assets/2c19d441-9d75-4f41-af67-29f5734de213">
+
 	
 </details>
 
