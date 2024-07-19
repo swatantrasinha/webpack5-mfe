@@ -113,8 +113,9 @@ module.exports= {
 
 </details>
 
-> npm i
-<br />
+> npm i <br />
+
+
 > npm run build
 
 Now open html file with live server and click on button "Click Me"
