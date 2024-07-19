@@ -3,8 +3,11 @@
 
 <details>
 <summary> Section-01</summary>
-Steps : 
   
+<details>
+<summary> Section-01 - Part1 : Getting Started </summary>
+  
+Steps :   
 <br />
 
 > npm init -y <br />
@@ -119,6 +122,12 @@ module.exports= {
 > npm run build
 
 Now open html file with live server and click on button "Click Me"
+</details>
+
+<details>
+<summary> Section-01 - Part2 : CommonJS-Modules </summary>
+	
+</details>
 
 
 </details>
