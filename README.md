@@ -92,6 +92,8 @@ document.getElementById('button1').addEventListener('click',function() {
 <details>
 <summary> 4. webpack.config.js </summary>
 
+```javascript
+
 const path= require('path')
 
 module.exports= {
@@ -101,6 +103,7 @@ module.exports= {
         path: path.resolve(__dirname, "dist")
     }
 }
+```
 
 </details>
 
