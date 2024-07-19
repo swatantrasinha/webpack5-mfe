@@ -146,6 +146,7 @@ module.exports= {
 
 Now open html file with live server and click on button "Click Me"
 </details>
+</details>
 
 <details>
 <summary> Section-01 - Part2 : CommonJS-Modules </summary>
