@@ -4,10 +4,10 @@
 <details>
 <summary> Section-01</summary>
   
-<details>
+> <details>
 <summary> Section-01 - Part1 : Getting Started </summary>
 
- <details>
+ > > <details>
 <summary> Screenshots to understand webpack </summary>
 1. Why Webpack ?
 <img width="927" alt="01_why-webpack" src="https://github.com/user-attachments/assets/dbf158f2-f50a-4d2c-bbe9-360db12d4b7b">
