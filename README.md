@@ -1,11 +1,10 @@
 # webpack5-mfe
-
------
+--------------
 
 <details>
-  <summary> Section-01</summary>
-  
+<summary> Section-01</summary>
 Steps : 
+  
 <br />
 
 > npm init -y <br />
@@ -13,12 +12,14 @@ Steps :
 > npm i --save lodash <br />
 
 <details>
-  
   <summary> 1. package.json </summary>
-  make below changes in scripts <br />
+<br />
+make below changes in scripts <br />
   
-  >  "build": "webpack --config webpack.config.js --mode development"
+>  "build": "webpack --config webpack.config.js --mode development"
+
 ```javascript
+
 {
   "name": "01_Getting_Started",
   "version": "1.0.0",
@@ -38,6 +39,7 @@ Steps :
     "lodash": "^4.17.21"
   }
 }
+
 ```
 </details>
 
@@ -46,6 +48,7 @@ Steps :
   <summary> 2. index.html </summary>
 
 ```javascript
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,9 +67,10 @@ Steps :
 </details>
 
 <details>
+<summary> 3. index.js </summary>
 
-  <summary> 3. index.js </summary>
-```javascript  
+  ```javascript  
+
 import _ from "lodash";
 
 document.getElementById('button1').addEventListener('click',function() {
@@ -81,10 +85,24 @@ document.getElementById('button1').addEventListener('click',function() {
         ulEle.appendChild(tempEle)
     })
 })
+
 ```
 </details>
 
+<details>
+<summary> 4. webpack.config.js </summary>
 
+const path= require('path')
+
+module.exports= {
+    entry: "./src/index.js",
+    output: {
+        filename: "bundle.js",
+        path: path.resolve(__dirname, "dist")
+    }
+}
+
+</details>
 
 </details>
 
