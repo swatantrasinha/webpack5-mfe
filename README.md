@@ -6,7 +6,27 @@
   
 <details>
 <summary> Section-01 - Part1 : Getting Started </summary>
-  
+
+ <details>
+<summary> Screenshots to understand webpack </summary>
+1. Why Webpack ?
+<img width="927" alt="01_why-webpack" src="https://github.com/user-attachments/assets/dbf158f2-f50a-4d2c-bbe9-360db12d4b7b">
+
+2. Modules
+<img width="1021" alt="02_birth_of_modules" src="https://github.com/user-attachments/assets/29160f4d-3171-4289-a6f6-5e5732e6610f">
+
+3. Use of Webpack
+<img width="1239" alt="03_use-of-webpack" src="https://github.com/user-attachments/assets/1f43e5ab-b5e3-4904-a0d6-e43a4074d9ad">
+
+4. How webpack works ?
+<br />
+<img width="446" alt="04_how-webpack-works_a" src="https://github.com/user-attachments/assets/26b28e68-1fff-4add-b5c3-e36a08403010">
+<br />
+<img width="1501" alt="04_how-webpack-works_b" src="https://github.com/user-attachments/assets/15696a7f-3c59-4066-bb83-f5c4432ce36c">
+<br />
+
+ </details>
+ 
 Steps :   
 <br />
 
