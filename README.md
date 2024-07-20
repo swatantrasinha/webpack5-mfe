@@ -256,6 +256,8 @@ console.log('convey bye to  to sinha => ', sayBye('sinha'))
 ```
 </details>
 
+> node main.js
+
 </details>
 
 </details>
