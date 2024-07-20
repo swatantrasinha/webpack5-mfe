@@ -3,6 +3,8 @@
 
 <details>
 <summary> Section-01</summary>
+Below sub-sections will be covered in Section-01 <br />
+	
 <details>
 <summary> Section-01 - Part1 : Getting Started </summary>
 
@@ -255,6 +257,9 @@ console.log('convey bye to  to sinha => ', sayBye('sinha'))
 </details>
 
 </details>
+
+</details>
+
 
 
 
