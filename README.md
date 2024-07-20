@@ -263,6 +263,28 @@ console.log('convey bye to  to sinha => ', sayBye('sinha'))
 <details>
 <summary> Section-01 - Part3 : ES6 Modules </summary>
 We have seen "require" module, now lets explore ES6 modules <br />
+Lets create a folder functions and add file <br />
+
+add.js
+------
+	
+```javascript
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+export default add;
+```
+
+outside functions folder we will create new file <br />
+
+main.js
+-------
+```javascript
+import add  from './functions/add'
+
+// console.log('Addition of 2 and 3 is : ', add(2,3))
+```
 	
 </details>
 
