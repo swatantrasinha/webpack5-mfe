@@ -285,11 +285,19 @@ import add  from './functions/add'
 
 console.log('Addition of 2 and 3 is : ', add(2,3))
 ```
+> node main.js
 
 ```
-This will give error  as node js only understand common js format 
+This will give error
+import add  from './functions/add'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+
+The reason is -  node js only understand common js format 
 for this import/export in ES6 to understand we will use webpack as below :
 ```
+
 <br />
 
 <hr />
