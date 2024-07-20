@@ -283,9 +283,15 @@ main.js
 ```javascript
 import add  from './functions/add'
 
-// console.log('Addition of 2 and 3 is : ', add(2,3))
+console.log('Addition of 2 and 3 is : ', add(2,3))
 ```
-	
+
+```
+This will give error  as node js only understand common js format 
+for this import/export in ES6 to understand we will use webpack as below : 
+```
+
+
 </details>
 
 
