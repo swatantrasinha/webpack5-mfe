@@ -288,8 +288,22 @@ console.log('Addition of 2 and 3 is : ', add(2,3))
 
 ```
 This will give error  as node js only understand common js format 
-for this import/export in ES6 to understand we will use webpack as below : 
+for this import/export in ES6 to understand we will use webpack as below :
 ```
+<br />
+
+> npm init -y
+
+<br />
+
+> npm i ---save-dev webpack webpack-cli
+
+<br />
+
+Instead of using script in package.json we will use command 
+
+> npx webpack --config webpack.config.js --mode development
+
 
 
 </details>
