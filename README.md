@@ -152,9 +152,107 @@ Now open html file with live server and click on button "Click Me"
 <summary> Section-01 - Part2 : CommonJS-Modules </summary>
 <img width="516" alt="Section1-Part2-Modules-In-Javascript" src="https://github.com/user-attachments/assets/2c19d441-9d75-4f41-af67-29f5734de213">
 
+Lets create a folder -> "2a_common-js-modules" <br />
+and add a file "main.js" inside it and also create another folder "functions" inside it <br />
+Inside functions folder we will add below files : <br />
+
+<details>
+<summary> 1. add.js </summary>
+	
+```javascript
+function add(a,b) {
+    return a+b;
+}
+module.exports= add;
+ ```
+</details>
+
+<details>
+<summary> 2. subtract.js </summary>
+	
+```javascript
+function subtract(a,b) {
+    return a-b;
+}
+module.exports= subtract;
+ ```
+</details>
+
+
+<details>
+<summary> 3. print.js  </summary>
+
+```javascript
+	
+function printLowerCase(inputString) {
+    return inputString.toLowerCase();
+}
+
+
+function printUpperCase(inputString) {
+    return inputString.toUpperCase();
+}
+
+module.exports = {
+    printLowerCase,
+    printUpperCase
+}
+```
+</details>
+
+
+<details>
+<summary> 4. greet.js  </summary>
+	
+```javascript
+function sayHello(person){
+    return "Hello " + person;
+}
+
+function sayBye(person){
+    return "Bye Bye " + person;
+}
+
+module.exports ={
+    greetHello: sayHello,
+    sayBye
+}
+```
+</details>
+
+The functions in above greet.js we will export from index.js below <br />
+
+<details>
+<summary> 5. greet.js  </summary>
+	
+```javascript
+const {greetHello, sayBye}= require('./greet')
+
+module.exports= {greetHello, sayBye}
+```
 	
 </details>
 
+<details>
+<summary> 6. main.js  </summary>
+	
+```javascript
+const add= require('./functions/add')
+const subtract= require('./functions/subtract')
+const {printLowerCase, printUpperCase}= require('./functions/print')
+const {greetHello, sayBye} = require('./functions')
+
+console.log("Addition of 2 and 3 is :" , add(2,3));
+console.log("Subtraction of 9 and 3 is :" , subtract(9,3));
+
+const str1= 'I am Swatantra Sinha'
+console.log(str1 + ' in lower case is  ' + printLowerCase(str1))
+console.log(str1 + ' in upper case is  ' + printUpperCase(str1))
+
+console.log('greet hello to swatantra => ', greetHello('swatantra'))
+console.log('convey bye to  to sinha => ', sayBye('sinha'))
+```
+</details>
 
 </details>
 
