@@ -50,7 +50,7 @@ make below changes in scripts <br />
   
 >  "build": "webpack --config webpack.config.js --mode development"
 	
-```javascript
+```
 			
 {
   "name": "01_Getting_Started",
@@ -225,7 +225,7 @@ module.exports ={
 The functions in above greet.js we will export from index.js below <br />
 
 <details>
-<summary> 5. greet.js  </summary>
+<summary> 5. index.js  </summary>
 	
 ```javascript
 const {greetHello, sayBye}= require('./greet')
