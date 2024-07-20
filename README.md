@@ -260,6 +260,13 @@ console.log('convey bye to  to sinha => ', sayBye('sinha'))
 
 </details>
 
+<details>
+<summary> Section-01 - Part3 : ES6 Modules </summary>
+We have seen "require" module, now lets explore ES6 modules <br />
+	
+</details>
+
+
 </details>
 
 
