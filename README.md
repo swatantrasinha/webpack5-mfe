@@ -326,9 +326,13 @@ Note: we can do using package.json command also but lets explore CLI now <br />
 > npx webpack --config webpack.config.js --mode development
 
 <br />
+
 With this, bundle.js will be created inside dist folder <br />
+
 > node dist/bundle.js
+
 <br />
+
 It will display : Addition of 2 and 3 is :  5
 <br />
 
