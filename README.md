@@ -292,18 +292,45 @@ for this import/export in ES6 to understand we will use webpack as below :
 ```
 <br />
 
+<hr />
+
 > npm init -y
 
-<br />
+<br/>
+this will create package.json  <br />
+
+Now install webpack <br />
 
 > npm i ---save-dev webpack webpack-cli
 
 <br />
 
+webpack.config.js
+-----------------
+
+```javascript
+const path = require('path')
+module.exports= {
+    entry: './main.js',
+
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, "dist")
+    }
+};
+```
+
 Instead of using script in package.json we will use command 
+Note: we can do using package.json command also but lets explore CLI now <br />
 
 > npx webpack --config webpack.config.js --mode development
 
+<br />
+With this, bundle.js will be created inside dist folder <br />
+> node dist/bundle.js
+<br />
+It will display : Addition of 2 and 3 is :  5
+<br />
 
 
 </details>
